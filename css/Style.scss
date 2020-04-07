@@ -948,7 +948,7 @@ $five-color: #F44336;
 
                     .lastest-big-news {
                         position: relative;
-                        max-width: 324px;
+                        max-width: 350px;
 
                         .comments {
                             position: absolute;
@@ -981,7 +981,7 @@ $five-color: #F44336;
                         }
 
                         .img {
-                            max-width: 324px;
+                            max-width: 350px;
                             max-height: 162px;
                             overflow: hidden;
                             position: relative;
@@ -1549,128 +1549,229 @@ $five-color: #F44336;
                     }
                 }
             }
-        }
 
-        .right-bar {
-            .stay-connect {
-                .stay-connect-title {
-                    border-bottom: 2px solid #000;
+            .right-bar {
+                .stay-connect {
+                    .stay-connect-title {
+                        border-bottom: 2px solid #000;
 
-                    .main-title {
-                        h3 {
-                            font-size: 14px;
-                            font-weight: 400;
-                            line-height: 17px;
-                            text-transform: uppercase;
-                            background: #000;
-                            display: inline-block;
-                            padding: 5px 10px;
-                            color: #fff;
+                        .main-title {
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 17px;
+                                text-transform: uppercase;
+                                background: #000;
+                                display: inline-block;
+                                padding: 5px 10px;
+                                color: #fff;
+                            }
                         }
                     }
-                }
 
-                .stay-connect-content {
-                    margin-top: 25px;
+                    .stay-connect-content {
+                        margin-top: 25px;
 
-                    .icon-box {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        margin-top: 20px;
-
-                        .images-box {
+                        .icon-box {
                             display: flex;
+                            justify-content: space-between;
                             align-items: center;
+                            margin-top: 20px;
 
-                            .img {
-                                max-width: 40px;
-                                max-height: 40px;
-                                overflow: hidden;
+                            .images-box {
+                                display: flex;
+                                align-items: center;
+
+                                .img {
+                                    max-width: 40px;
+                                    max-height: 40px;
+                                    overflow: hidden;
+                                }
+
+                                .box-text {
+                                    margin-left: 20px;
+
+                                    span {
+                                        font-size: 11px;
+                                        font-weight: 700;
+                                        line-height: 15px;
+                                        color: #555555;
+                                    }
+                                }
                             }
 
-                            .box-text {
-                                margin-left: 20px;
-
-                                span {
+                            .link {
+                                a {
                                     font-size: 11px;
                                     font-weight: 700;
                                     line-height: 15px;
                                     color: #555555;
+                                    text-transform: uppercase;
                                 }
                             }
                         }
+                    }
+                }
 
-                        .link {
-                            a {
-                                font-size: 11px;
-                                font-weight: 700;
-                                line-height: 15px;
-                                color: #555555;
+                .adver {
+                    margin-top: 40px;
+
+                    .title {
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: #bbbbbb;
+                        text-align: center;
+                    }
+
+                    .img {
+                        max-width: 300px;
+                        max-height: 250px;
+                        overflow: hidden;
+                        margin: auto;
+                    }
+                }
+
+                .make-it-mordern {
+                    margin-top: 40px;
+
+                    .make-it-mordern-title {
+                        border-bottom: 2px solid #222222;
+
+                        .main-title {
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 17px;
                                 text-transform: uppercase;
+                                background: #222222;
+                                padding: 5px 10px;
+                                color: #fff;
+                                display: inline-block;
+                            }
+                        }
+                    }
+
+                    .make-it-mordern-content {
+                        .make-it-mordern-box {
+
+                            .col-12:nth-child(odd) {
+                                padding-right: 10px;
+                            }
+
+                            .col-12:nth-child(2n) {
+                                padding-left: 10px;
+                            }
+
+                            .mordern-sm-news {
+                                position: relative;
+                                margin-top: 20px;
+
+                                .img {
+                                    max-width: 170px;
+                                    max-height: 106.5px;
+                                    overflow: hidden;
+                                    position: relative;
+
+                                    .list {
+                                        position: absolute;
+                                        left: 0px;
+                                        bottom: 0px;
+
+                                        span {
+                                            font-size: 10px;
+                                            font-weight: 600;
+                                            color: #fff;
+                                            background-color: #000;
+                                            padding: 5px;
+                                            line-height: 21px;
+                                            text-transform: capitalize;
+                                        }
+                                    }
+                                }
+
+                                .box-text {
+                                    padding-top: 7px;
+
+                                    .title {
+
+                                        a {
+                                            font-size: 13px;
+                                            font-weight: 400;
+                                            line-height: 17px;
+                                            @include confix-title-big;
+
+                                            &:hover {
+                                                color: $primary-color;
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
                 }
-            }
 
-            .adver {
-                margin-top: 40px;
+                .lastest-reviews {
+                    margin-top: 40px;
 
-                .title {
-                    font-size: 10px;
-                    font-weight: 400;
-                    line-height: 21px;
-                    color: #bbbbbb;
-                    text-align: center;
-                }
+                    .lastest-reviews-title {
+                        border-bottom: 2px solid #222222;
 
-                .img {
-                    max-width: 300px;
-                    max-height: 250px;
-                    overflow: hidden;
-                    margin: auto;
-                }
-            }
-
-            .make-it-mordern {
-                margin-top: 40px;
-
-                .make-it-mordern-title {
-                    border-bottom: 2px solid #222222;
-
-                    .main-title {
-                        h3 {
-                            font-size: 14px;
-                            font-weight: 400;
-                            line-height: 17px;
-                            text-transform: uppercase;
-                            background: #222222;
-                            padding: 5px 10px;
-                            color: #fff;
-                            display: inline-block;
+                        .main-title {
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 17px;
+                                text-transform: uppercase;
+                                background: #222222;
+                                padding: 5px 10px;
+                                color: #fff;
+                                display: inline-block;
+                            }
                         }
                     }
-                }
 
-                .make-it-mordern-content {
-                    .make-it-mordern-box {
+                    .lastest-reviews-content {
+                        padding-top: 25px;
 
-                        .col-12:nth-child(odd) {
-                            padding-right: 10px;
-                        }
-
-                        .col-12:nth-child(2n) {
-                            padding-left: 10px;
-                        }
-
-                        .mordern-sm-news {
+                        .lastest-reviews-big-news {
                             position: relative;
-                            margin-top: 20px;
+                            max-width: 350px;
+
+                            .comments {
+                                position: absolute;
+                                right: 3px;
+                                top: 75%;
+                                transform: translateY(-50%);
+
+                                span {
+                                    color: #fff;
+                                    background-color: #000;
+                                    display: inline-block;
+                                    min-width: 17px;
+                                    padding: 3px 4px 4px 5px;
+                                    position: relative;
+                                    font-size: 10px;
+                                    cursor: pointer;
+
+                                    &:after {
+                                        position: absolute;
+                                        bottom: -3px;
+                                        left: 0;
+                                        content: '';
+                                        width: 0;
+                                        height: 0;
+                                        border-style: solid;
+                                        border-width: 3px 3px 0 0;
+                                        border-color: #000 transparent transparent;
+                                    }
+                                }
+                            }
 
                             .img {
-                                max-width: 170px;
-                                max-height: 106.5px;
+                                max-width: 350px;
+                                max-height: 233px;
                                 overflow: hidden;
                                 position: relative;
 
@@ -1692,195 +1793,16 @@ $five-color: #F44336;
                             }
 
                             .box-text {
-                                padding-top: 7px;
+                                padding: 20px 0px;
+
 
                                 .title {
 
                                     a {
-                                        font-size: 13px;
+                                        font-size: 21px;
                                         font-weight: 400;
-                                        line-height: 17px;
+                                        line-height: 25px;
                                         @include confix-title-big;
-
-                                        &:hover {
-                                            color: $primary-color;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            .lastest-reviews {
-                margin-top: 40px;
-
-                .lastest-reviews-title {
-                    border-bottom: 2px solid #222222;
-
-                    .main-title {
-                        h3 {
-                            font-size: 14px;
-                            font-weight: 400;
-                            line-height: 17px;
-                            text-transform: uppercase;
-                            background: #222222;
-                            padding: 5px 10px;
-                            color: #fff;
-                            display: inline-block;
-                        }
-                    }
-                }
-
-                .lastest-reviews-content {
-                    padding-top: 25px;
-
-                    .lastest-reviews-big-news {
-                        position: relative;
-                        max-width: 350px;
-
-                        .comments {
-                            position: absolute;
-                            right: 3px;
-                            top: 75%;
-                            transform: translateY(-50%);
-
-                            span {
-                                color: #fff;
-                                background-color: #000;
-                                display: inline-block;
-                                min-width: 17px;
-                                padding: 3px 4px 4px 5px;
-                                position: relative;
-                                font-size: 10px;
-                                cursor: pointer;
-
-                                &:after {
-                                    position: absolute;
-                                    bottom: -3px;
-                                    left: 0;
-                                    content: '';
-                                    width: 0;
-                                    height: 0;
-                                    border-style: solid;
-                                    border-width: 3px 3px 0 0;
-                                    border-color: #000 transparent transparent;
-                                }
-                            }
-                        }
-
-                        .img {
-                            max-width: 350px;
-                            max-height: 233px;
-                            overflow: hidden;
-                            position: relative;
-
-                            .list {
-                                position: absolute;
-                                left: 0px;
-                                bottom: 0px;
-
-                                span {
-                                    font-size: 10px;
-                                    font-weight: 600;
-                                    color: #fff;
-                                    background-color: #000;
-                                    padding: 5px;
-                                    line-height: 21px;
-                                    text-transform: capitalize;
-                                }
-                            }
-                        }
-
-                        .box-text {
-                            padding: 20px 0px;
-
-
-                            .title {
-
-                                a {
-                                    font-size: 21px;
-                                    font-weight: 400;
-                                    line-height: 25px;
-                                    @include confix-title-big;
-
-                                    &:hover {
-                                        color: $primary-color;
-                                    }
-                                }
-                            }
-
-                            .author {
-                                padding-top: 15px;
-                                display: flex;
-                                align-items: center;
-
-                                p {
-                                    font-size: 11px;
-                                    line-height: 11px;
-
-                                    b {
-                                        font-weight: 700;
-                                    }
-
-                                    span {
-                                        color: #aaaaaa;
-                                    }
-                                }
-
-                                .rating {
-                                    display: inline-block;
-                                    padding-bottom: 5px;
-                                    padding-left: 7px;
-
-                                    .fa {
-                                        font-size: 11px;
-                                    }
-                                }
-                            }
-
-                            .desc {
-                                padding-top: 15px;
-
-                                p {
-                                    font-size: 13px;
-                                    font-weight: 400;
-                                    line-height: 20px;
-                                    color: #777777;
-                                    @include confix-descrip;
-                                }
-                            }
-                        }
-                    }
-
-                    .lastest-reviews-small-news {
-                        .sm-sub-left {
-                            display: flex;
-                            margin-top: 25px;
-
-                            &:first-child {
-                                margin-top: unset;
-                            }
-
-                            .img {
-                                flex: 1;
-                                max-width: 97px;
-                                max-height: 80px;
-                            }
-
-                            .box-text {
-                                flex: 2;
-                                margin-left: 20px;
-
-                                .title {
-                                    a {
-                                        width: 100%;
-                                        font-size: 14px;
-                                        font-weight: 500;
-                                        line-height: 20px;
-                                        @include confix-descrip;
-                                        max-height: 57px;
 
                                         &:hover {
                                             color: $primary-color;
@@ -1916,149 +1838,227 @@ $five-color: #F44336;
                                         }
                                     }
                                 }
-                            }
-                        }
-                    }
-                }
-            }
 
-            .holiday-res {
-                margin-top: 40px;
+                                .desc {
+                                    padding-top: 15px;
 
-                .holiday-res-title {
-                    border-bottom: 2px solid #FF7500;
-
-                    .main-title {
-                        h3 {
-                            font-size: 14px;
-                            font-weight: 400;
-                            line-height: 17px;
-                            text-transform: uppercase;
-                            background: #FF7500;
-                            padding: 5px 10px;
-                            color: #fff;
-                            display: inline-block;
-                        }
-                    }
-                }
-
-                .holiday-res-content {
-                    .holiday-res-big-news {
-                        position: relative;
-                        max-width: 350px;
-
-                        .comments {
-                            position: absolute;
-                            right: 3px;
-                            top: 19%;
-                            transform: translateY(-50%);
-
-                            span {
-                                color: #fff;
-                                background-color: #000;
-                                display: inline-block;
-                                min-width: 17px;
-                                padding: 3px 4px 4px 5px;
-                                position: relative;
-                                font-size: 10px;
-                                cursor: pointer;
-
-                                &:after {
-                                    position: absolute;
-                                    bottom: -3px;
-                                    left: 0;
-                                    content: '';
-                                    width: 0;
-                                    height: 0;
-                                    border-style: solid;
-                                    border-width: 3px 3px 0 0;
-                                    border-color: #000 transparent transparent;
+                                    p {
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        line-height: 20px;
+                                        color: #777777;
+                                        @include confix-descrip;
+                                    }
                                 }
                             }
                         }
 
-                        .img {
-                            max-width: 350px;
-                            max-height: 233px;
-                            overflow: hidden;
-                            position: relative;
+                        .lastest-reviews-small-news {
+                            .sm-sub-left {
+                                display: flex;
+                                margin-top: 25px;
 
-                            .list {
+                                &:first-child {
+                                    margin-top: unset;
+                                }
+
+                                .img {
+                                    flex: 1;
+                                    max-width: 97px;
+                                    max-height: 80px;
+                                }
+
+                                .box-text {
+                                    flex: 2;
+                                    margin-left: 20px;
+
+                                    .title {
+                                        a {
+                                            width: 100%;
+                                            font-size: 14px;
+                                            font-weight: 500;
+                                            line-height: 20px;
+                                            @include confix-descrip;
+                                            max-height: 57px;
+
+                                            &:hover {
+                                                color: $primary-color;
+                                            }
+                                        }
+                                    }
+
+                                    .author {
+                                        padding-top: 15px;
+                                        display: flex;
+                                        align-items: center;
+
+                                        p {
+                                            font-size: 11px;
+                                            line-height: 11px;
+
+                                            b {
+                                                font-weight: 700;
+                                            }
+
+                                            span {
+                                                color: #aaaaaa;
+                                            }
+                                        }
+
+                                        .rating {
+                                            display: inline-block;
+                                            padding-bottom: 5px;
+                                            padding-left: 7px;
+
+                                            .fa {
+                                                font-size: 11px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .holiday-res {
+                    margin-top: 40px;
+
+                    .holiday-res-title {
+                        border-bottom: 2px solid #FF7500;
+
+                        .main-title {
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 17px;
+                                text-transform: uppercase;
+                                background: #FF7500;
+                                padding: 5px 10px;
+                                color: #fff;
+                                display: inline-block;
+                            }
+                        }
+                    }
+
+                    .holiday-res-content {
+                        .holiday-res-big-news {
+                            position: relative;
+                            max-width: 350px;
+
+                            .comments {
                                 position: absolute;
-                                left: 0px;
-                                bottom: 0px;
+                                right: 3px;
+                                top: 19%;
+                                transform: translateY(-50%);
 
                                 span {
-                                    font-size: 10px;
-                                    font-weight: 600;
                                     color: #fff;
                                     background-color: #000;
-                                    padding: 5px;
-                                    line-height: 21px;
-                                    text-transform: capitalize;
-                                }
-                            }
-                        }
+                                    display: inline-block;
+                                    min-width: 17px;
+                                    padding: 3px 4px 4px 5px;
+                                    position: relative;
+                                    font-size: 10px;
+                                    cursor: pointer;
 
-                        .box-text {
-                            padding: 20px 0px;
-
-                            &:last-child {
-                                padding-top: 5px;
-                            }
-
-                            .title {
-
-                                a {
-                                    font-size: 21px;
-                                    font-weight: 400;
-                                    line-height: 25px;
-                                    @include confix-title-big;
-
-                                    &:hover {
-                                        color: #FF7500;
+                                    &:after {
+                                        position: absolute;
+                                        bottom: -3px;
+                                        left: 0;
+                                        content: '';
+                                        width: 0;
+                                        height: 0;
+                                        border-style: solid;
+                                        border-width: 3px 3px 0 0;
+                                        border-color: #000 transparent transparent;
                                     }
                                 }
                             }
 
-                            .author {
-                                padding-top: 15px;
-                                display: flex;
-                                align-items: center;
+                            .img {
+                                max-width: 350px;
+                                max-height: 233px;
+                                overflow: hidden;
+                                position: relative;
 
-                                p {
-                                    font-size: 11px;
-                                    line-height: 11px;
-
-                                    b {
-                                        font-weight: 700;
-                                    }
+                                .list {
+                                    position: absolute;
+                                    left: 0px;
+                                    bottom: 0px;
 
                                     span {
-                                        color: #aaaaaa;
-                                    }
-                                }
-
-                                .rating {
-                                    display: inline-block;
-                                    padding-bottom: 5px;
-                                    padding-left: 7px;
-
-                                    .fa {
-                                        font-size: 11px;
+                                        font-size: 10px;
+                                        font-weight: 600;
+                                        color: #fff;
+                                        background-color: #000;
+                                        padding: 5px;
+                                        line-height: 21px;
+                                        text-transform: capitalize;
                                     }
                                 }
                             }
 
-                            .desc {
-                                padding-top: 15px;
+                            .box-text {
+                                padding: 20px 0px;
 
-                                p {
-                                    font-size: 13px;
-                                    font-weight: 400;
-                                    line-height: 20px;
-                                    color: #777777;
-                                    @include confix-descrip;
+                                &:last-child {
+                                    padding-top: 5px;
+                                }
+
+                                .title {
+
+                                    a {
+                                        font-size: 21px;
+                                        font-weight: 400;
+                                        line-height: 25px;
+                                        @include confix-title-big;
+
+                                        &:hover {
+                                            color: #FF7500;
+                                        }
+                                    }
+                                }
+
+                                .author {
+                                    padding-top: 15px;
+                                    display: flex;
+                                    align-items: center;
+
+                                    p {
+                                        font-size: 11px;
+                                        line-height: 11px;
+
+                                        b {
+                                            font-weight: 700;
+                                        }
+
+                                        span {
+                                            color: #aaaaaa;
+                                        }
+                                    }
+
+                                    .rating {
+                                        display: inline-block;
+                                        padding-bottom: 5px;
+                                        padding-left: 7px;
+
+                                        .fa {
+                                            font-size: 11px;
+                                        }
+                                    }
+                                }
+
+                                .desc {
+                                    padding-top: 15px;
+
+                                    p {
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        line-height: 20px;
+                                        color: #777777;
+                                        @include confix-descrip;
+                                    }
                                 }
                             }
                         }
@@ -2083,6 +2083,724 @@ $five-color: #F44336;
                 max-height: 90px;
                 overflow: hidden;
                 margin: auto;
+            }
+        }
+
+        .more-news {
+            margin-top: 60px;
+
+            .more-news-box {
+                .more-news-title {
+                    border-bottom: 2px solid $primary-color;
+
+                    &.second {
+                        border-bottom: 2px solid #222222;
+
+                        .main-title {
+                            h3 {
+                                background: #222222;
+                            }
+                        }
+                    }
+
+                    .main-title {
+                        h3 {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 17px;
+                            text-transform: uppercase;
+                            background: $primary-color;
+                            padding: 5px 10px;
+                            color: #fff;
+                            display: inline-block;
+                        }
+                    }
+                }
+
+                .more-news-content {
+                    margin-top: 30px;
+
+                    .more-news-big {
+                        max-width: 350px;
+                        max-height: 221px;
+                        position: relative;
+
+                        .img {
+                            max-width: 350px;
+                            max-height: 221px;
+                            position: relative;
+                            overflow: hidden;
+                            z-index: 1;
+                        }
+
+                        .box-text {
+                            z-index: 2;
+                            position: absolute;
+                            bottom: 0px;
+                            left: 0px;
+                            padding: 10px 15px;
+
+                            .title {
+                                a {
+                                    font-size: 17px;
+                                    font-weight: 700;
+                                    line-height: 19px;
+                                    color: #fff;
+                                    @include confix-title-big;
+                                }
+                            }
+
+                            .author {
+                                padding-top: 10px;
+
+                                p {
+                                    font-size: 11px;
+                                    line-height: 11px;
+
+                                    b {
+                                        font-weight: 700;
+                                        color: #fff;
+                                    }
+
+                                    span {
+                                        color: #aaaaaa;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .more-news-sm {
+                        margin-top: 20px;
+
+                        .sm-sub-left {
+                            display: flex;
+                            margin-top: 25px;
+
+                            &:first-child {
+                                margin-top: unset;
+                            }
+
+                            .img {
+                                flex: 1;
+                                max-width: 81px;
+                                max-height: 62px;
+                            }
+
+                            .box-text {
+                                flex: 2;
+                                margin-left: 20px;
+
+                                .title {
+                                    a {
+                                        width: 100%;
+                                        font-size: 13px;
+                                        font-weight: 500;
+                                        line-height: 18px;
+                                        @include confix-descrip;
+                                        max-height: 57px;
+
+                                        &:hover {
+                                            color: $primary-color;
+                                        }
+                                    }
+                                }
+
+                                .author {
+                                    padding-top: 10px;
+
+                                    p {
+                                        font-size: 11px;
+                                        line-height: 11px;
+
+                                        b {
+                                            font-weight: 700;
+                                        }
+
+                                        span {
+                                            color: #aaaaaa;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .detail-news-ms {
+            margin-top: 60px;
+
+            .col-12 {
+                padding-right: 4.5px;
+
+                &:last-child {
+                    padding-right: unset;
+                }
+            }
+
+            .detail-news-ms-box {
+                .ms-box-content {
+                    position: relative;
+                    max-width: 354px;
+                    max-height: 248px;
+                    cursor: pointer;
+
+                    &:hover img {
+                        transform: scale(1.1);
+                    }
+
+                    &:hover .box-text .list span {
+                        background: #fff;
+                        color: #222222;
+                    }
+
+                    .img {
+                        position: relative;
+                        max-width: 354px;
+                        max-height: 248px;
+                        z-index: 1;
+                        overflow: hidden;
+                    }
+
+                    .overlay {
+                        background: rgba(51, 51, 51, 0.85);
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+
+                    .box-text {
+                        position: absolute;
+                        z-index: 3;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 100%;
+                        text-align: center;
+
+                        .list {
+                            span {
+                                font-size: 10px;
+                                font-weight: 500;
+                                color: #fff;
+                                line-height: 13px;
+                                text-transform: uppercase;
+                                background: #222222;
+                                padding: 2px 4.5px;
+                                cursor: pointer;
+                            }
+                        }
+
+                        .title {
+                            padding-top: 15px;
+
+                            a {
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                color: #fff;
+                                @include confix-title-big;
+                            }
+                        }
+
+                        .author {
+                            padding-top: 8px;
+
+                            p {
+                                font-size: 11px;
+                                line-height: 11px;
+
+                                b {
+                                    font-weight: 700;
+                                    color: #fff;
+                                }
+
+                                span {
+                                    color: #aaaaaa;
+                                }
+                            }
+                        }
+                    }
+
+                    .icon {
+                        position: absolute;
+                        top: 20px;
+                        right: 15px;
+                        z-index: 3;
+
+                        .fas {
+                            border: 2px solid #fff;
+                            color: #fff;
+                            font-size: 12px;
+                            padding: 7px;
+                            border-radius: 50%;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .end-news-n-ft {
+            margin-top: 60px;
+
+            .end-news-title {
+                border-bottom: 2px solid #222222;
+
+                .main-title {
+                    h3 {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 17px;
+                        text-transform: uppercase;
+                        background: #222222;
+                        padding: 5px 10px;
+                        color: #fff;
+                        display: inline-block;
+                    }
+                }
+            }
+
+            .end-news-content {
+                margin-top: 15px;
+
+                .end-news-big-news {
+                    position: relative;
+                    max-width: 350px;
+                    margin-top: 25px;
+
+                    .comments {
+                        position: absolute;
+                        right: 3px;
+                        bottom: 3%;
+                        transform: translateY(-50%);
+
+                        span {
+                            color: #fff;
+                            background-color: #000;
+                            display: inline-block;
+                            min-width: 17px;
+                            padding: 3px 4px 4px 5px;
+                            position: relative;
+                            font-size: 10px;
+                            cursor: pointer;
+
+                            &:after {
+                                position: absolute;
+                                bottom: -3px;
+                                left: 0;
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: 3px 3px 0 0;
+                                border-color: #000 transparent transparent;
+                            }
+                        }
+                    }
+
+                    .img {
+                        max-width: 350px;
+                        max-height: 164px;
+                        overflow: hidden;
+                        position: relative;
+
+                        .list {
+                            position: absolute;
+                            left: 0px;
+                            bottom: 0px;
+
+                            span {
+                                font-size: 10px;
+                                font-weight: 600;
+                                color: #fff;
+                                background-color: #000;
+                                padding: 5px;
+                                line-height: 21px;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+
+                    .box-text {
+                        padding: 15px 0px;
+
+
+                        .title {
+
+                            a {
+                                font-size: 21px;
+                                font-weight: 400;
+                                line-height: 25px;
+                                @include confix-title-big;
+
+                                &:hover {
+                                    color: $primary-color;
+                                }
+                            }
+                        }
+
+                        .author {
+                            padding-top: 15px;
+
+                            p {
+                                font-size: 11px;
+                                line-height: 11px;
+
+                                b {
+                                    font-weight: 700;
+                                }
+
+                                span {
+                                    color: #aaaaaa;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .end-news-pages {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 40px;
+
+                .list-page {
+                    ul {
+                        li {
+                            margin-right: 10px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .current-page {
+                    span {
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: #666666;
+                    }
+                }
+            }
+
+            .sm-new-content {
+                .end-news-small-news {
+                    margin-top: 40px;
+
+                    .sm-sub-left {
+                        display: flex;
+                        margin-top: 30px;
+
+                        &:first-child {
+                            margin-top: unset;
+                        }
+
+                        .img {
+                            flex: 1;
+                            max-width: 97px;
+                            max-height: 80px;
+                        }
+
+                        .box-text {
+                            flex: 2;
+                            margin-left: 20px;
+
+                            .title {
+                                a {
+                                    width: 95%;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 20px;
+                                    @include confix-descrip;
+                                    max-height: 57px;
+
+                                    &:hover {
+                                        color: $third-color;
+                                    }
+                                }
+                            }
+
+                            .author {
+                                padding-top: 15px;
+
+                                p {
+                                    font-size: 11px;
+                                    line-height: 11px;
+
+                                    b {
+                                        font-weight: 700;
+                                    }
+
+                                    span {
+                                        color: #aaaaaa;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .btn-load-more {
+                    margin: 35px auto;
+                    text-align: center;
+
+                    button {
+                        border: 1px solid #C9C9C9;
+                        outline: none;
+                        background: #fff;
+                        font-size: 12px;
+                        line-height: 12px;
+                        font-weight: 400;
+                        color: #C9C9C9;
+                        padding: 8px 10px;
+                    }
+                }
+            }
+
+            .recent-comments {
+                .comments-box {
+                    margin-top: 20px;
+
+                    .comment-for-pages {
+                        padding-top: 20px;
+
+                        span {
+                            font-style: italic;
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 21px;
+                            color: #444A50;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #footer {
+        margin-top: 75px;
+        background: rgba(0, 0, 0, 0.73) url('../pic/footer.jpg');
+        background-position: center center;
+        background-size: cover;
+        color: #fff;
+
+        .footer-bg-cl {
+            background: rgba(0, 0, 0, 0.73);
+
+            .ft-title {
+                h4 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 31px;
+                }
+            }
+
+            .footer-box-ct {
+                padding-top: 40px;
+
+                .ft-content-box {
+
+                    .ft-small-news {
+                        margin-top: 26px;
+
+                        .sm-sub-left {
+                            display: flex;
+                            margin-top: 30px;
+
+                            &:first-child {
+                                margin-top: unset;
+                            }
+
+                            .img {
+                                flex: 1;
+                                max-width: 100px;
+                                max-height: 68px;
+                            }
+
+                            .box-text {
+                                flex: 2;
+                                margin-left: 20px;
+
+                                .title {
+                                    a {
+                                        width: 95%;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        line-height: 20px;
+                                        @include confix-descrip;
+                                        max-height: 57px;
+                                        color: #fff;
+
+                                        &:hover {
+                                            color: $primary-color;
+                                        }
+                                    }
+                                }
+
+                                .author {
+                                    padding-top: 15px;
+
+                                    p {
+                                        font-size: 11px;
+                                        line-height: 11px;
+
+                                        b {
+                                            font-weight: 700;
+                                        }
+
+                                        span {
+                                            color: #aaaaaa;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .list-ct {
+                        display: flex;
+                        justify-content: space-between;
+
+                        &:first-child {
+                            margin-top: 20px;
+                        }
+
+                        a {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            .hre {
+                width: 85%;
+                margin: 50px auto;
+                height: 1px;
+                background: rgba(254, 254, 254, 0.55);
+            }
+
+            .follow-ft {
+                padding-bottom: 40px;
+
+                .ft-title {
+                    padding-bottom: 35px;
+                }
+
+                .logo {
+                    max-width: 231px;
+                    height: 77px;
+                    margin-top: 45px;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+
+                .about {
+                    .sub-ab {
+                        p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 22px;
+                            color: #fff;
+                        }
+                    }
+
+                    .ct-us {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        padding-top: 20px;
+
+                        a {
+                            color: $primary-color;
+                        }
+                    }
+                }
+
+                .fl {
+                    .fl-box {
+                        ul {
+                            display: flex;
+
+                            li {
+                                margin-right: 7px;
+                                width: 40px;
+                                height: 40px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background: rgba(255,255,255,.03);
+                                border: 1px solid rgba(255,255,255,.03);
+                                cursor: pointer;
+
+                                &:hover .fab {
+                                    color: $primary-color;
+                                }
+
+                                .fab {
+                                    color: #fff;
+                                    transition: .3s ease-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .about-coder {
+                background-color: #0D0D0D;
+                padding: 8px;
+
+                .end-box {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .left {
+                        span {
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: #cccccc;
+                        }
+                    }
+
+                    .right {
+                        ul {
+                            display: flex;
+
+                            li {
+                                margin-right: 8px;
+
+
+                                &:last-child {
+                                    margin-right: unset;
+                                }
+
+                                a {
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    line-height: 21px;
+                                    color: #cccccc;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

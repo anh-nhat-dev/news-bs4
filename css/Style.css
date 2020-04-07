@@ -611,7 +611,7 @@ body {
       padding-top: 25px; }
       #wrapper #home-page .main-content-page .lastest-news .lastest-news-content .lastest-big-news {
         position: relative;
-        max-width: 324px; }
+        max-width: 350px; }
         #wrapper #home-page .main-content-page .lastest-news .lastest-news-content .lastest-big-news .comments {
           position: absolute;
           right: 3px;
@@ -637,7 +637,7 @@ body {
               border-width: 3px 3px 0 0;
               border-color: #000 transparent transparent; }
         #wrapper #home-page .main-content-page .lastest-news .lastest-news-content .lastest-big-news .img {
-          max-width: 324px;
+          max-width: 350px;
           max-height: 162px;
           overflow: hidden;
           position: relative; }
@@ -1024,137 +1024,276 @@ body {
                 border-style: solid;
                 border-width: 3px 3px 0 0;
                 border-color: #000 transparent transparent; }
-
-#wrapper #home-page .right-bar .stay-connect .stay-connect-title {
-  border-bottom: 2px solid #000; }
-  #wrapper #home-page .right-bar .stay-connect .stay-connect-title .main-title h3 {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    text-transform: uppercase;
-    background: #000;
-    display: inline-block;
-    padding: 5px 10px;
-    color: #fff; }
-
-#wrapper #home-page .right-bar .stay-connect .stay-connect-content {
-  margin-top: 25px; }
-  #wrapper #home-page .right-bar .stay-connect .stay-connect-content .icon-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px; }
-    #wrapper #home-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box {
-      display: flex;
-      align-items: center; }
-      #wrapper #home-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box .img {
-        max-width: 40px;
-        max-height: 40px;
-        overflow: hidden; }
-      #wrapper #home-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box .box-text {
-        margin-left: 20px; }
-        #wrapper #home-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box .box-text span {
-          font-size: 11px;
-          font-weight: 700;
-          line-height: 15px;
-          color: #555555; }
-    #wrapper #home-page .right-bar .stay-connect .stay-connect-content .icon-box .link a {
-      font-size: 11px;
-      font-weight: 700;
-      line-height: 15px;
-      color: #555555;
-      text-transform: uppercase; }
-
-#wrapper #home-page .right-bar .adver {
-  margin-top: 40px; }
-  #wrapper #home-page .right-bar .adver .title {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #bbbbbb;
-    text-align: center; }
-  #wrapper #home-page .right-bar .adver .img {
-    max-width: 300px;
-    max-height: 250px;
-    overflow: hidden;
-    margin: auto; }
-
-#wrapper #home-page .right-bar .make-it-mordern {
-  margin-top: 40px; }
-  #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-title {
-    border-bottom: 2px solid #222222; }
-    #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-title .main-title h3 {
+  #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-title {
+    border-bottom: 2px solid #000; }
+    #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-title .main-title h3 {
       font-size: 14px;
       font-weight: 400;
       line-height: 17px;
       text-transform: uppercase;
-      background: #222222;
+      background: #000;
+      display: inline-block;
       padding: 5px 10px;
-      color: #fff;
-      display: inline-block; }
-  #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .col-12:nth-child(odd) {
-    padding-right: 10px; }
-  #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .col-12:nth-child(2n) {
-    padding-left: 10px; }
-  #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news {
-    position: relative;
-    margin-top: 20px; }
-    #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .img {
-      max-width: 170px;
-      max-height: 106.5px;
+      color: #fff; }
+  #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-content {
+    margin-top: 25px; }
+    #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-content .icon-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px; }
+      #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box {
+        display: flex;
+        align-items: center; }
+        #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box .img {
+          max-width: 40px;
+          max-height: 40px;
+          overflow: hidden; }
+        #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box .box-text {
+          margin-left: 20px; }
+          #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-content .icon-box .images-box .box-text span {
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 15px;
+            color: #555555; }
+      #wrapper #home-page .main-content-page .right-bar .stay-connect .stay-connect-content .icon-box .link a {
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 15px;
+        color: #555555;
+        text-transform: uppercase; }
+  #wrapper #home-page .main-content-page .right-bar .adver {
+    margin-top: 40px; }
+    #wrapper #home-page .main-content-page .right-bar .adver .title {
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #bbbbbb;
+      text-align: center; }
+    #wrapper #home-page .main-content-page .right-bar .adver .img {
+      max-width: 300px;
+      max-height: 250px;
       overflow: hidden;
-      position: relative; }
-      #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .img .list {
-        position: absolute;
-        left: 0px;
-        bottom: 0px; }
-        #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .img .list span {
-          font-size: 10px;
-          font-weight: 600;
-          color: #fff;
-          background-color: #000;
-          padding: 5px;
-          line-height: 21px;
-          text-transform: capitalize; }
-    #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .box-text {
-      padding-top: 7px; }
-      #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .box-text .title a {
-        font-size: 13px;
+      margin: auto; }
+  #wrapper #home-page .main-content-page .right-bar .make-it-mordern {
+    margin-top: 40px; }
+    #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-title {
+      border-bottom: 2px solid #222222; }
+      #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-title .main-title h3 {
+        font-size: 14px;
         font-weight: 400;
         line-height: 17px;
-        text-overflow: ellipsis;
-        -webkit-line-clamp: 2;
-        max-height: 60px;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        overflow: hidden; }
-        #wrapper #home-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .box-text .title a:hover {
-          color: #4DB2EC; }
-
-#wrapper #home-page .right-bar .lastest-reviews {
-  margin-top: 40px; }
-  #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-title {
-    border-bottom: 2px solid #222222; }
-    #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-title .main-title h3 {
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 17px;
-      text-transform: uppercase;
-      background: #222222;
-      padding: 5px 10px;
-      color: #fff;
-      display: inline-block; }
-  #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content {
-    padding-top: 25px; }
-    #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news {
+        text-transform: uppercase;
+        background: #222222;
+        padding: 5px 10px;
+        color: #fff;
+        display: inline-block; }
+    #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .col-12:nth-child(odd) {
+      padding-right: 10px; }
+    #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .col-12:nth-child(2n) {
+      padding-left: 10px; }
+    #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news {
+      position: relative;
+      margin-top: 20px; }
+      #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .img {
+        max-width: 170px;
+        max-height: 106.5px;
+        overflow: hidden;
+        position: relative; }
+        #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .img .list {
+          position: absolute;
+          left: 0px;
+          bottom: 0px; }
+          #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .img .list span {
+            font-size: 10px;
+            font-weight: 600;
+            color: #fff;
+            background-color: #000;
+            padding: 5px;
+            line-height: 21px;
+            text-transform: capitalize; }
+      #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .box-text {
+        padding-top: 7px; }
+        #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .box-text .title a {
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 17px;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 2;
+          max-height: 60px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden; }
+          #wrapper #home-page .main-content-page .right-bar .make-it-mordern .make-it-mordern-content .make-it-mordern-box .mordern-sm-news .box-text .title a:hover {
+            color: #4DB2EC; }
+  #wrapper #home-page .main-content-page .right-bar .lastest-reviews {
+    margin-top: 40px; }
+    #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-title {
+      border-bottom: 2px solid #222222; }
+      #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-title .main-title h3 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-transform: uppercase;
+        background: #222222;
+        padding: 5px 10px;
+        color: #fff;
+        display: inline-block; }
+    #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content {
+      padding-top: 25px; }
+      #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news {
+        position: relative;
+        max-width: 350px; }
+        #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .comments {
+          position: absolute;
+          right: 3px;
+          top: 75%;
+          transform: translateY(-50%); }
+          #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .comments span {
+            color: #fff;
+            background-color: #000;
+            display: inline-block;
+            min-width: 17px;
+            padding: 3px 4px 4px 5px;
+            position: relative;
+            font-size: 10px;
+            cursor: pointer; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .comments span:after {
+              position: absolute;
+              bottom: -3px;
+              left: 0;
+              content: '';
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 3px 3px 0 0;
+              border-color: #000 transparent transparent; }
+        #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .img {
+          max-width: 350px;
+          max-height: 233px;
+          overflow: hidden;
+          position: relative; }
+          #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .img .list {
+            position: absolute;
+            left: 0px;
+            bottom: 0px; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .img .list span {
+              font-size: 10px;
+              font-weight: 600;
+              color: #fff;
+              background-color: #000;
+              padding: 5px;
+              line-height: 21px;
+              text-transform: capitalize; }
+        #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text {
+          padding: 20px 0px; }
+          #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .title a {
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 25px;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            max-height: 60px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .title a:hover {
+              color: #4DB2EC; }
+          #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author {
+            padding-top: 15px;
+            display: flex;
+            align-items: center; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author p {
+              font-size: 11px;
+              line-height: 11px; }
+              #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author p b {
+                font-weight: 700; }
+              #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author p span {
+                color: #aaaaaa; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author .rating {
+              display: inline-block;
+              padding-bottom: 5px;
+              padding-left: 7px; }
+              #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author .rating .fa {
+                font-size: 11px; }
+          #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .desc {
+            padding-top: 15px; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .desc p {
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 20px;
+              color: #777777;
+              text-overflow: ellipsis;
+              -webkit-line-clamp: 3;
+              max-height: 80px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              overflow: hidden; }
+      #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left {
+        display: flex;
+        margin-top: 25px; }
+        #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left:first-child {
+          margin-top: unset; }
+        #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .img {
+          flex: 1;
+          max-width: 97px;
+          max-height: 80px; }
+        #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text {
+          flex: 2;
+          margin-left: 20px; }
+          #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .title a {
+            width: 100%;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+            max-height: 80px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            max-height: 57px; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .title a:hover {
+              color: #4DB2EC; }
+          #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author {
+            padding-top: 15px;
+            display: flex;
+            align-items: center; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author p {
+              font-size: 11px;
+              line-height: 11px; }
+              #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author p b {
+                font-weight: 700; }
+              #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author p span {
+                color: #aaaaaa; }
+            #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author .rating {
+              display: inline-block;
+              padding-bottom: 5px;
+              padding-left: 7px; }
+              #wrapper #home-page .main-content-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author .rating .fa {
+                font-size: 11px; }
+  #wrapper #home-page .main-content-page .right-bar .holiday-res {
+    margin-top: 40px; }
+    #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-title {
+      border-bottom: 2px solid #FF7500; }
+      #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-title .main-title h3 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-transform: uppercase;
+        background: #FF7500;
+        padding: 5px 10px;
+        color: #fff;
+        display: inline-block; }
+    #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news {
       position: relative;
       max-width: 350px; }
-      #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .comments {
+      #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .comments {
         position: absolute;
         right: 3px;
-        top: 75%;
+        top: 19%;
         transform: translateY(-50%); }
-        #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .comments span {
+        #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .comments span {
           color: #fff;
           background-color: #000;
           display: inline-block;
@@ -1163,7 +1302,7 @@ body {
           position: relative;
           font-size: 10px;
           cursor: pointer; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .comments span:after {
+          #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .comments span:after {
             position: absolute;
             bottom: -3px;
             left: 0;
@@ -1173,16 +1312,16 @@ body {
             border-style: solid;
             border-width: 3px 3px 0 0;
             border-color: #000 transparent transparent; }
-      #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .img {
+      #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .img {
         max-width: 350px;
         max-height: 233px;
         overflow: hidden;
         position: relative; }
-        #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .img .list {
+        #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .img .list {
           position: absolute;
           left: 0px;
           bottom: 0px; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .img .list span {
+          #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .img .list span {
             font-size: 10px;
             font-weight: 600;
             color: #fff;
@@ -1190,9 +1329,11 @@ body {
             padding: 5px;
             line-height: 21px;
             text-transform: capitalize; }
-      #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text {
+      #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text {
         padding: 20px 0px; }
-        #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .title a {
+        #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text:last-child {
+          padding-top: 5px; }
+        #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .title a {
           font-size: 21px;
           font-weight: 400;
           line-height: 25px;
@@ -1202,28 +1343,28 @@ body {
           display: -webkit-box;
           -webkit-box-orient: vertical;
           overflow: hidden; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .title a:hover {
-            color: #4DB2EC; }
-        #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author {
+          #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .title a:hover {
+            color: #FF7500; }
+        #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author {
           padding-top: 15px;
           display: flex;
           align-items: center; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author p {
+          #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author p {
             font-size: 11px;
             line-height: 11px; }
-            #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author p b {
+            #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author p b {
               font-weight: 700; }
-            #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author p span {
+            #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author p span {
               color: #aaaaaa; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author .rating {
+          #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author .rating {
             display: inline-block;
             padding-bottom: 5px;
             padding-left: 7px; }
-            #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .author .rating .fa {
+            #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author .rating .fa {
               font-size: 11px; }
-        #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .desc {
+        #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .desc {
           padding-top: 15px; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-big-news .box-text .desc p {
+          #wrapper #home-page .main-content-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .desc p {
             font-size: 13px;
             font-weight: 400;
             line-height: 20px;
@@ -1234,153 +1375,6 @@ body {
             display: -webkit-box;
             -webkit-box-orient: vertical;
             overflow: hidden; }
-    #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left {
-      display: flex;
-      margin-top: 25px; }
-      #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left:first-child {
-        margin-top: unset; }
-      #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .img {
-        flex: 1;
-        max-width: 97px;
-        max-height: 80px; }
-      #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text {
-        flex: 2;
-        margin-left: 20px; }
-        #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .title a {
-          width: 100%;
-          font-size: 14px;
-          font-weight: 500;
-          line-height: 20px;
-          text-overflow: ellipsis;
-          -webkit-line-clamp: 3;
-          max-height: 80px;
-          display: -webkit-box;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-          max-height: 57px; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .title a:hover {
-            color: #4DB2EC; }
-        #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author {
-          padding-top: 15px;
-          display: flex;
-          align-items: center; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author p {
-            font-size: 11px;
-            line-height: 11px; }
-            #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author p b {
-              font-weight: 700; }
-            #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author p span {
-              color: #aaaaaa; }
-          #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author .rating {
-            display: inline-block;
-            padding-bottom: 5px;
-            padding-left: 7px; }
-            #wrapper #home-page .right-bar .lastest-reviews .lastest-reviews-content .lastest-reviews-small-news .sm-sub-left .box-text .author .rating .fa {
-              font-size: 11px; }
-
-#wrapper #home-page .right-bar .holiday-res {
-  margin-top: 40px; }
-  #wrapper #home-page .right-bar .holiday-res .holiday-res-title {
-    border-bottom: 2px solid #FF7500; }
-    #wrapper #home-page .right-bar .holiday-res .holiday-res-title .main-title h3 {
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 17px;
-      text-transform: uppercase;
-      background: #FF7500;
-      padding: 5px 10px;
-      color: #fff;
-      display: inline-block; }
-  #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news {
-    position: relative;
-    max-width: 350px; }
-    #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .comments {
-      position: absolute;
-      right: 3px;
-      top: 19%;
-      transform: translateY(-50%); }
-      #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .comments span {
-        color: #fff;
-        background-color: #000;
-        display: inline-block;
-        min-width: 17px;
-        padding: 3px 4px 4px 5px;
-        position: relative;
-        font-size: 10px;
-        cursor: pointer; }
-        #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .comments span:after {
-          position: absolute;
-          bottom: -3px;
-          left: 0;
-          content: '';
-          width: 0;
-          height: 0;
-          border-style: solid;
-          border-width: 3px 3px 0 0;
-          border-color: #000 transparent transparent; }
-    #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .img {
-      max-width: 350px;
-      max-height: 233px;
-      overflow: hidden;
-      position: relative; }
-      #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .img .list {
-        position: absolute;
-        left: 0px;
-        bottom: 0px; }
-        #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .img .list span {
-          font-size: 10px;
-          font-weight: 600;
-          color: #fff;
-          background-color: #000;
-          padding: 5px;
-          line-height: 21px;
-          text-transform: capitalize; }
-    #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text {
-      padding: 20px 0px; }
-      #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text:last-child {
-        padding-top: 5px; }
-      #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .title a {
-        font-size: 21px;
-        font-weight: 400;
-        line-height: 25px;
-        text-overflow: ellipsis;
-        -webkit-line-clamp: 2;
-        max-height: 60px;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        overflow: hidden; }
-        #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .title a:hover {
-          color: #FF7500; }
-      #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author {
-        padding-top: 15px;
-        display: flex;
-        align-items: center; }
-        #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author p {
-          font-size: 11px;
-          line-height: 11px; }
-          #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author p b {
-            font-weight: 700; }
-          #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author p span {
-            color: #aaaaaa; }
-        #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author .rating {
-          display: inline-block;
-          padding-bottom: 5px;
-          padding-left: 7px; }
-          #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .author .rating .fa {
-            font-size: 11px; }
-      #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .desc {
-        padding-top: 15px; }
-        #wrapper #home-page .right-bar .holiday-res .holiday-res-content .holiday-res-big-news .box-text .desc p {
-          font-size: 13px;
-          font-weight: 400;
-          line-height: 20px;
-          color: #777777;
-          text-overflow: ellipsis;
-          -webkit-line-clamp: 3;
-          max-height: 80px;
-          display: -webkit-box;
-          -webkit-box-orient: vertical;
-          overflow: hidden; }
 
 #wrapper #home-page .adver {
   margin-top: 30px; }
@@ -1395,3 +1389,468 @@ body {
     max-height: 90px;
     overflow: hidden;
     margin: auto; }
+
+#wrapper #home-page .more-news {
+  margin-top: 60px; }
+  #wrapper #home-page .more-news .more-news-box .more-news-title {
+    border-bottom: 2px solid #4DB2EC; }
+    #wrapper #home-page .more-news .more-news-box .more-news-title.second {
+      border-bottom: 2px solid #222222; }
+      #wrapper #home-page .more-news .more-news-box .more-news-title.second .main-title h3 {
+        background: #222222; }
+    #wrapper #home-page .more-news .more-news-box .more-news-title .main-title h3 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      text-transform: uppercase;
+      background: #4DB2EC;
+      padding: 5px 10px;
+      color: #fff;
+      display: inline-block; }
+  #wrapper #home-page .more-news .more-news-box .more-news-content {
+    margin-top: 30px; }
+    #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big {
+      max-width: 350px;
+      max-height: 221px;
+      position: relative; }
+      #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big .img {
+        max-width: 350px;
+        max-height: 221px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1; }
+      #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big .box-text {
+        z-index: 2;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 10px 15px; }
+        #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big .box-text .title a {
+          font-size: 17px;
+          font-weight: 700;
+          line-height: 19px;
+          color: #fff;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 2;
+          max-height: 60px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden; }
+        #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big .box-text .author {
+          padding-top: 10px; }
+          #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big .box-text .author p {
+            font-size: 11px;
+            line-height: 11px; }
+            #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big .box-text .author p b {
+              font-weight: 700;
+              color: #fff; }
+            #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-big .box-text .author p span {
+              color: #aaaaaa; }
+    #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm {
+      margin-top: 20px; }
+      #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left {
+        display: flex;
+        margin-top: 25px; }
+        #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left:first-child {
+          margin-top: unset; }
+        #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .img {
+          flex: 1;
+          max-width: 81px;
+          max-height: 62px; }
+        #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .box-text {
+          flex: 2;
+          margin-left: 20px; }
+          #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .box-text .title a {
+            width: 100%;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 18px;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+            max-height: 80px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            max-height: 57px; }
+            #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .box-text .title a:hover {
+              color: #4DB2EC; }
+          #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .box-text .author {
+            padding-top: 10px; }
+            #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .box-text .author p {
+              font-size: 11px;
+              line-height: 11px; }
+              #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .box-text .author p b {
+                font-weight: 700; }
+              #wrapper #home-page .more-news .more-news-box .more-news-content .more-news-sm .sm-sub-left .box-text .author p span {
+                color: #aaaaaa; }
+
+#wrapper #home-page .detail-news-ms {
+  margin-top: 60px; }
+  #wrapper #home-page .detail-news-ms .col-12 {
+    padding-right: 4.5px; }
+    #wrapper #home-page .detail-news-ms .col-12:last-child {
+      padding-right: unset; }
+  #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content {
+    position: relative;
+    max-width: 354px;
+    max-height: 248px;
+    cursor: pointer; }
+    #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content:hover img {
+      transform: scale(1.1); }
+    #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content:hover .box-text .list span {
+      background: #fff;
+      color: #222222; }
+    #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .img {
+      position: relative;
+      max-width: 354px;
+      max-height: 248px;
+      z-index: 1;
+      overflow: hidden; }
+    #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .overlay {
+      background: rgba(51, 51, 51, 0.85);
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      visibility: visible; }
+    #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text {
+      position: absolute;
+      z-index: 3;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center; }
+      #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text .list span {
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 13px;
+        text-transform: uppercase;
+        background: #222222;
+        padding: 2px 4.5px;
+        cursor: pointer; }
+      #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text .title {
+        padding-top: 15px; }
+        #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text .title a {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21px;
+          text-transform: uppercase;
+          color: #fff;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 2;
+          max-height: 60px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden; }
+      #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text .author {
+        padding-top: 8px; }
+        #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text .author p {
+          font-size: 11px;
+          line-height: 11px; }
+          #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text .author p b {
+            font-weight: 700;
+            color: #fff; }
+          #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .box-text .author p span {
+            color: #aaaaaa; }
+    #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .icon {
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      z-index: 3; }
+      #wrapper #home-page .detail-news-ms .detail-news-ms-box .ms-box-content .icon .fas {
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 12px;
+        padding: 7px;
+        border-radius: 50%;
+        font-weight: 400; }
+
+#wrapper #home-page .end-news-n-ft {
+  margin-top: 60px; }
+  #wrapper #home-page .end-news-n-ft .end-news-title {
+    border-bottom: 2px solid #222222; }
+    #wrapper #home-page .end-news-n-ft .end-news-title .main-title h3 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      text-transform: uppercase;
+      background: #222222;
+      padding: 5px 10px;
+      color: #fff;
+      display: inline-block; }
+  #wrapper #home-page .end-news-n-ft .end-news-content {
+    margin-top: 15px; }
+    #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news {
+      position: relative;
+      max-width: 350px;
+      margin-top: 25px; }
+      #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .comments {
+        position: absolute;
+        right: 3px;
+        bottom: 3%;
+        transform: translateY(-50%); }
+        #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .comments span {
+          color: #fff;
+          background-color: #000;
+          display: inline-block;
+          min-width: 17px;
+          padding: 3px 4px 4px 5px;
+          position: relative;
+          font-size: 10px;
+          cursor: pointer; }
+          #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .comments span:after {
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 3px 3px 0 0;
+            border-color: #000 transparent transparent; }
+      #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .img {
+        max-width: 350px;
+        max-height: 164px;
+        overflow: hidden;
+        position: relative; }
+        #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .img .list {
+          position: absolute;
+          left: 0px;
+          bottom: 0px; }
+          #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .img .list span {
+            font-size: 10px;
+            font-weight: 600;
+            color: #fff;
+            background-color: #000;
+            padding: 5px;
+            line-height: 21px;
+            text-transform: capitalize; }
+      #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .box-text {
+        padding: 15px 0px; }
+        #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .box-text .title a {
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 25px;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 2;
+          max-height: 60px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden; }
+          #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .box-text .title a:hover {
+            color: #4DB2EC; }
+        #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .box-text .author {
+          padding-top: 15px; }
+          #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .box-text .author p {
+            font-size: 11px;
+            line-height: 11px; }
+            #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .box-text .author p b {
+              font-weight: 700; }
+            #wrapper #home-page .end-news-n-ft .end-news-content .end-news-big-news .box-text .author p span {
+              color: #aaaaaa; }
+  #wrapper #home-page .end-news-n-ft .end-news-pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px; }
+    #wrapper #home-page .end-news-n-ft .end-news-pages .list-page ul li {
+      margin-right: 10px;
+      font-size: 14px; }
+    #wrapper #home-page .end-news-n-ft .end-news-pages .current-page span {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #666666; }
+  #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news {
+    margin-top: 40px; }
+    #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left {
+      display: flex;
+      margin-top: 30px; }
+      #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left:first-child {
+        margin-top: unset; }
+      #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .img {
+        flex: 1;
+        max-width: 97px;
+        max-height: 80px; }
+      #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .box-text {
+        flex: 2;
+        margin-left: 20px; }
+        #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .box-text .title a {
+          width: 95%;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 3;
+          max-height: 80px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          max-height: 57px; }
+          #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .box-text .title a:hover {
+            color: #4CAF50; }
+        #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .box-text .author {
+          padding-top: 15px; }
+          #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .box-text .author p {
+            font-size: 11px;
+            line-height: 11px; }
+            #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .box-text .author p b {
+              font-weight: 700; }
+            #wrapper #home-page .end-news-n-ft .sm-new-content .end-news-small-news .sm-sub-left .box-text .author p span {
+              color: #aaaaaa; }
+  #wrapper #home-page .end-news-n-ft .sm-new-content .btn-load-more {
+    margin: 35px auto;
+    text-align: center; }
+    #wrapper #home-page .end-news-n-ft .sm-new-content .btn-load-more button {
+      border: 1px solid #C9C9C9;
+      outline: none;
+      background: #fff;
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 400;
+      color: #C9C9C9;
+      padding: 8px 10px; }
+  #wrapper #home-page .end-news-n-ft .recent-comments .comments-box {
+    margin-top: 20px; }
+    #wrapper #home-page .end-news-n-ft .recent-comments .comments-box .comment-for-pages {
+      padding-top: 20px; }
+      #wrapper #home-page .end-news-n-ft .recent-comments .comments-box .comment-for-pages span {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: #444A50; }
+
+#wrapper #footer {
+  margin-top: 75px;
+  background: rgba(0, 0, 0, 0.73) url("../pic/footer.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff; }
+  #wrapper #footer .footer-bg-cl {
+    background: rgba(0, 0, 0, 0.73); }
+    #wrapper #footer .footer-bg-cl .ft-title h4 {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 31px; }
+    #wrapper #footer .footer-bg-cl .footer-box-ct {
+      padding-top: 40px; }
+      #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news {
+        margin-top: 26px; }
+        #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left {
+          display: flex;
+          margin-top: 30px; }
+          #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left:first-child {
+            margin-top: unset; }
+          #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .img {
+            flex: 1;
+            max-width: 100px;
+            max-height: 68px; }
+          #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .box-text {
+            flex: 2;
+            margin-left: 20px; }
+            #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .box-text .title a {
+              width: 95%;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 20px;
+              text-overflow: ellipsis;
+              -webkit-line-clamp: 3;
+              max-height: 80px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              max-height: 57px;
+              color: #fff; }
+              #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .box-text .title a:hover {
+                color: #4DB2EC; }
+            #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .box-text .author {
+              padding-top: 15px; }
+              #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .box-text .author p {
+                font-size: 11px;
+                line-height: 11px; }
+                #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .box-text .author p b {
+                  font-weight: 700; }
+                #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .ft-small-news .sm-sub-left .box-text .author p span {
+                  color: #aaaaaa; }
+      #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .list-ct {
+        display: flex;
+        justify-content: space-between; }
+        #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .list-ct:first-child {
+          margin-top: 20px; }
+        #wrapper #footer .footer-bg-cl .footer-box-ct .ft-content-box .list-ct a {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 30px;
+          color: #fff; }
+    #wrapper #footer .footer-bg-cl .hre {
+      width: 85%;
+      margin: 50px auto;
+      height: 1px;
+      background: rgba(254, 254, 254, 0.55); }
+    #wrapper #footer .footer-bg-cl .follow-ft {
+      padding-bottom: 40px; }
+      #wrapper #footer .footer-bg-cl .follow-ft .ft-title {
+        padding-bottom: 35px; }
+      #wrapper #footer .footer-bg-cl .follow-ft .logo {
+        max-width: 231px;
+        height: 77px;
+        margin-top: 45px; }
+        #wrapper #footer .footer-bg-cl .follow-ft .logo img {
+          object-fit: contain; }
+      #wrapper #footer .footer-bg-cl .follow-ft .about .sub-ab p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #fff; }
+      #wrapper #footer .footer-bg-cl .follow-ft .about .ct-us {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        padding-top: 20px; }
+        #wrapper #footer .footer-bg-cl .follow-ft .about .ct-us a {
+          color: #4DB2EC; }
+      #wrapper #footer .footer-bg-cl .follow-ft .fl .fl-box ul {
+        display: flex; }
+        #wrapper #footer .footer-bg-cl .follow-ft .fl .fl-box ul li {
+          margin-right: 7px;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.03);
+          border: 1px solid rgba(255, 255, 255, 0.03);
+          cursor: pointer; }
+          #wrapper #footer .footer-bg-cl .follow-ft .fl .fl-box ul li:hover .fab {
+            color: #4DB2EC; }
+          #wrapper #footer .footer-bg-cl .follow-ft .fl .fl-box ul li .fab {
+            color: #fff;
+            transition: .3s ease-out; }
+    #wrapper #footer .footer-bg-cl .about-coder {
+      background-color: #0D0D0D;
+      padding: 8px; }
+      #wrapper #footer .footer-bg-cl .about-coder .end-box {
+        display: flex;
+        justify-content: space-between; }
+        #wrapper #footer .footer-bg-cl .about-coder .end-box .left span {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 21px;
+          color: #cccccc; }
+        #wrapper #footer .footer-bg-cl .about-coder .end-box .right ul {
+          display: flex; }
+          #wrapper #footer .footer-bg-cl .about-coder .end-box .right ul li {
+            margin-right: 8px; }
+            #wrapper #footer .footer-bg-cl .about-coder .end-box .right ul li:last-child {
+              margin-right: unset; }
+            #wrapper #footer .footer-bg-cl .about-coder .end-box .right ul li a {
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 21px;
+              color: #cccccc; }

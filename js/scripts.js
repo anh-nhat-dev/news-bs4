@@ -1,6 +1,9 @@
 $(document).ready(function () {
 	hover_drop_header_bottom();
 	click_search_header_bottom();
+	open_mobile_nav_bar();
+	open_moblie_search_bar();
+	back_to_top();
 });
 
 
@@ -59,3 +62,55 @@ function click_search_header_bottom() {
     }
 }
 
+function open_mobile_nav_bar() {
+	var open_side_mb = document.querySelector('#wrapper #header .header-mobbile .sider-bar button');
+	var menu_side_mb = document.querySelector('#wrapper #header .header-mobbile .sider-bar .list-sider-bar-box');
+	var close_side_mb = document.querySelector('#wrapper #header .header-mobbile .sider-bar .list-sider-bar-box .overlay-list-sider-bar .close button');
+	open_side_mb.onclick = function () {
+		menu_side_mb.classList.add('show-mb-bar');
+    }
+
+	close_side_mb.onclick = function () {
+		menu_side_mb.classList.remove('show-mb-bar');
+    }
+}
+
+function open_moblie_search_bar() {
+	var open_mb_search = document.querySelector('#wrapper #header .header-mobbile .search-bar button');
+	var menu_search_bar = document.querySelector('#wrapper #header .header-mobbile .search-bar .list-sider-bar-box');
+	var close_search_mb = document.querySelector('#wrapper #header .header-mobbile .search-bar .list-sider-bar-box .overlay-list-sider-bar .close button');
+
+	open_mb_search.onclick = function () {
+		menu_search_bar.classList.add('show-mb-bar');
+    }
+
+	close_search_mb.onclick = function () {
+		menu_search_bar.classList.remove('show-mb-bar');
+    }
+}
+
+function back_to_top() {
+	// browser window scroll (in pixels) after which the "back to top" link is shown
+	var offset = 300,
+		//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+		offset_opacity = 1200,
+		//duration of the top scrolling animation (in ms)
+		scroll_top_duration = 700,
+		//grab the "back to top" link
+		$back_to_top = $('.cd-top');
+	//hide or show the "back to top" link
+	$(window).scroll(function () {
+		($(this).scrollTop() > offset) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+		if ($(this).scrollTop() > offset_opacity) {
+			$back_to_top.addClass('cd-fade-out');
+		}
+	});
+	//smooth scroll to top
+	$back_to_top.on('click', function (event) {
+		event.preventDefault();
+		$('body,html').animate({
+			scrollTop: 0,
+		}, scroll_top_duration
+		);
+	});
+}
